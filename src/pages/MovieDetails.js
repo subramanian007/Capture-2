@@ -65,7 +65,7 @@ const Headline = styled.div`
   position: relative;
   h2 {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -10%);
   }
