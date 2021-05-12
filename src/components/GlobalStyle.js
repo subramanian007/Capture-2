@@ -13,11 +13,9 @@ body{
     font-family: 'Itim', cursive;
 }
 
-html, body{
-    overflow-x:hidden;
-}
 
 html{
+    overflow-x:hidden;
     @media (max-width:1750px){
         font-size:75%
     }
