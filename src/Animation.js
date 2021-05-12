@@ -83,8 +83,8 @@ export const lineAnim = {
 
 export const sliderAnim = {
   hidden: {
-    x: '-130%',
-    skew: '45deg',
+    x: '-180%',
+    skew: '40deg',
   },
   show: {
     x: '100%',
