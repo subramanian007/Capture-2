@@ -6,16 +6,19 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding:0;
     box-sizing:border-box;
+    
 }
 
 body{
     background:#1b1b1b;  
     font-family: 'Itim', cursive;
+    overflow-x:hidden;
+    
 }
 
 
 html{
-    overflow-x:hidden;
+    
     @media (max-width:1750px){
         font-size:75%
     }

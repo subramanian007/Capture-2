@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 const ScrollTop = () => {
   const { pathName } = useLocation();
   useEffect(() => {
-    window.scroll({
+    window.scrollTo({
       top: 0,
       left: 0,
     });
