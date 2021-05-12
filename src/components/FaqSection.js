@@ -2,8 +2,7 @@ import React from 'react';
 
 import { About } from '../styles';
 import styled from 'styled-components';
-import { motion, AnimateSharedLayout } from 'framer-motion';
-import { fade } from '../Animation';
+import { AnimateSharedLayout } from 'framer-motion';
 
 import { scrollReveal } from '../Animation';
 import { useScroll } from './ScrollAnim';

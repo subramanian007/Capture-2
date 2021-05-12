@@ -10,6 +10,7 @@ const MovieDetails = () => {
   const history = useHistory();
   const url = history.location.pathname;
 
+  // eslint-disable-next-line no-unused-vars
   const [movies, setMovies] = useState(MovieState);
   const [movie, setMovie] = useState(null);
 
